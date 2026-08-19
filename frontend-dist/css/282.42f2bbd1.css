@@ -25,3 +25,5 @@
 .upload-list-item img,.grid-item img{animation:img-fade-in .45s ease}
 .el-upload-dragger{transition:border-color .3s ease,background-color .3s ease,transform .3s ease}
 .el-upload-dragger:hover{transform:translateY(-2px)}
+
+.back-home-button[data-v-15adb2dc]{position:fixed;top:30px;right:286px;width:2.5rem;height:2.5rem;display:flex;align-items:center;justify-content:center;border:1px solid var(--glass-border);border-radius:12px;background-color:var(--glass-bg);backdrop-filter:blur(20px) saturate(1.4);-webkit-backdrop-filter:blur(20px) saturate(1.4);color:var(--theme-toggle-color);transition:background-color .25s ease,border-color .25s ease,transform .25s ease;box-shadow:none;padding:0;z-index:100;box-sizing:border-box}.back-home-button[data-v-15adb2dc]:hover{transform:scale(1.05);border-color:var(--glass-border-hover)}.back-home-button[data-v-15adb2dc]:active{transform:scale(.92)}.back-home-button[data-v-15adb2dc] .svg-inline--fa{font-size:1.15em}@media (max-width:768px){.back-home-button[data-v-15adb2dc]{width:2rem;height:2rem;right:104px;top:16px}}
