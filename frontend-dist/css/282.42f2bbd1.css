@@ -15,3 +15,5 @@
   .title[data-v-15adb2dc]{font-size:1.25rem;letter-spacing:0}
   .upload-card[data-v-1090ec28]{width:94vw;padding:10px}
 }
+
+/* v1.2 logo spin */@keyframes logo-spin-v12{to{transform:rotate(360deg)}}.logo--fixed[data-v-17f54292]{animation:logo-spin-v12 6s linear infinite}
