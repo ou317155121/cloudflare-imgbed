@@ -188,8 +188,8 @@ export function isExtValid(fileExt) {
  */
 export function resolveFileExt(fileName, fileType = 'application/octet-stream') {
     let fileExt = fileName.split('.').pop();
-    if (fileExt && fileExt !== fileName && isExtValid(fileExt)) {
-        return fileExt;
+    if (fileExt && fileExt !== fileName && /^[a-zA-Z0-9]{1,16}$/.test(fileExt)) {
+        return fileExt.toLowerCase();
     }
     // 文件名中无有效扩展名，尝试从 MIME 类型中提取
     const typePart = fileType.split('/').pop();
