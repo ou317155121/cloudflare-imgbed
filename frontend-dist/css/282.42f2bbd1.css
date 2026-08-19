@@ -17,3 +17,4 @@
 }
 
 /* v1.2 logo spin */@keyframes logo-spin-v12{to{transform:rotate(360deg)}}.logo--fixed[data-v-17f54292]{animation:logo-spin-v12 6s linear infinite}
+/* v1.3 logo spin + mobile layout + button sizing */@keyframes logo-spin-v13{to{transform:rotate(360deg)}}img.logo--fixed[data-v-17f54292]{animation:logo-spin-v13 6s linear infinite}img.logo--hover-enabled[data-v-17f54292]:hover{transform:scale(1.1);filter:drop-shadow(0 0 10px var(--logo-glow-color))}.modern-file-action-btn[data-v-645a7810]{width:32px;height:32px}@media (max-width:768px){.mobile-more-dropdown[data-v-15adb2dc]{top:30px;right:14px}.more-dropdown[data-v-15adb2dc]{top:30px;right:14px}.modern-file-action-btn[data-v-645a7810]{width:32px;height:32px;font-size:15px;margin:2px 0;border-radius:9px}}
